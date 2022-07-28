@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+.login {
+    display: block;
+    margin: 0 auto;
+    width: 25%;
+    height: 300px;
+   
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid antiquewhite;
+    padding: 15px 5px;
+}
+.login:hover{
+    border: 2px solid chartreuse ;
+}
+.login  form {
+    width: 100%;
+    height: 70%;
+    
+}
+.login .form-group{
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+}
+.login .form-group label, input{
+    /*  */
+    padding: 5px;
+    
+}
+.login .form-group i{
+    color:yellowgreen;
+    font-size: 17px;
+}
+.login  button {
+    /* padding-top: 20px; */
+    width: 60%;
+    height: 40px;
+    background-color: chocolate;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10%;
+    justify-content: center;
+    text-align: center;
+    align-items:center;
+}
+.login .info{
+    display: block;
+    width: 100%;
+    height: 30%;
+}
+.login .info h1{
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.login .info h1 li ,a {
+    list-style: none;
+}
+.login  button:hover{
+    background-color: darkseagreen;
+}
+@media screen and (max-width:1000px) {
+    .login {
+        display: block;
+        margin: 0 auto;
+        width: 55%;
+        height: 300px;
+       
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        border: 2px solid antiquewhite;
+        padding: 15px 5px;
+    }
+}
+@media screen and (max-width:413px){
+    .login {
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+        height: 280px;
+       
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        border: 2px solid antiquewhite;
+        padding: 15px 5px;
+    }
+}
