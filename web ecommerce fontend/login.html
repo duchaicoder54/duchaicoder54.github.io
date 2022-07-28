@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>login</title>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<title>trangchu.com</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link rel="stylesheet" type="text/css" href="./css/stylelogin.css" />
+  <link rel="stylesheet" type="text/css" href="./css/style.css" />
+</head>
+
+<body>
+    
+    <header>
+       
+        <div class="logo">
+            
+    
+    
+    
+       <img src="./images/logo.png" alt=""  >
+        </div>
+        <div class="menu nav" id="2">
+            <li> <a href="trangchu.html">Trang chủ</a>  </li>
+                <li> <a href="sanpham.html">Sản phẩm</a>  </li>
+           
+            <li> <a href="">Sale</a>
+             </li>
+           
+            <li> <a href="">Bộ sưu tầm</a>
+               
+            </li>
+            <li> <a href="thongtin.html">Thông tin</a>
+              
+            </li>
+        
+        </div>
+        <div class="icon-menu">
+       
+        <div class="other">
+         <li  id="hh">   <i class="fas fa-bars" ></i></li>
+            <li><i class="fas fa-search"></i> </li>
+            <li><i class="fas fa-paw"></i></li>
+            <li><a href="#"><i class="fas fa-user-circle"></i></a></li>
+            <li> <a href="card.html"><i class="fas fa-shopping-bag"></i></a></li>
+        </div>
+    </div>
+         
+    </header>
+    <div class="login">
+        <form action= "login.php" method= "post">
+        <div class="form-group">
+            <label for=""><i class="fas fa-user"></i></label>
+            <input type ="text" class="form-control" id="" placeholder="Input uername" name="username">
+        </div>
+        <div class="form-group">
+            <label for=""><i class="fas fa-unlock"></i></label>
+            <input type ="password" class="form-control" id="" placeholder="Input password" name= "password"
+            >
+        </div>
+        
+        <button  class="control" type="submit" name="dangnhap"> LOGIN</button>
+    </form>
+    <div class="info" >
+        <h1 >Bạn chưa có tài khoản</h1>
+    <li> <a href="register.php"> Đăng kí tài khoản </a></li>
+    </div>
+</div>
+
+<script>
+    let menu_bar_login = document.querySelector('.fa-bars')
+let nav_login  = document.querySelector('.nav')
+menu_bar_login.onclick= () =>{
+    menu_bar_login.classList.toggle("fa-times")
+    nav_login.classList.toggle('active')
+}  
+</script>
+
+</body>
+</html>
