@@ -15,7 +15,7 @@ products.forEach((product) =>{
      </div>
      <div class="text">
      <h2>${product.name}</h2>
-     <h2><span>đ</span>${product.price} </h2>
+     <h2>${product.price}<sup>đ</sup> </h2>
      <p>${product.discription}</p>
     </div>
      <div class="icon_action">
