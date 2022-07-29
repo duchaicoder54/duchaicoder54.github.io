@@ -37,103 +37,103 @@ imgSrc :'./images/i1.jpg'
                                     {
                                         id: 6,
                                         name:'áo polo miker',
-                                        price:7,
+                                        price:750000,
                                         discription : 'Uống trà cải thiện sự tỉnh táo và tư duy',
                                         imgSrc :'./images/i6.jpg'
                                             },
                                             {
                                                 id: 7,
                                                 name:'áo polo finumk',
-                                                price:10,
+                                                price:564000,
                                                 discription : 'Uống trà cải thiện sự tỉnh táo và tư duy',
                                                 imgSrc :'./images/i7.jpg'
                                                     },
                                                     {
                                                         id: 8,
                                                         name:'áo polo makernup',
-                                                        price:12,
+                                                        price:220000,
                                                         discription : 'Uống trà cải thiện sự tỉnh táo và tư duy',
                                                         imgSrc :'./images/i8.jpg'
                                                             }, {
                                                                 id: 9,
-                                                                name:'trà tranh cam  xả',
-                                                                price:9,
+                                                                name:'áo polo croptop',
+                                                                price:390000,
                                                                 discription : 'Uống trà cải thiện sự tỉnh táo và tư duy',
                                                                 imgSrc :'./images/i9.jpg'
                                                                     }, 
                                                                     {
                                                                         id: 10,
-                                                                        name:'trà tranh cam  xả',
-                                                                        price:9,
+                                                                        name:'áo polo Suter',
+                                                                        price:910000,
                                                                         discription : 'Uống trà cải thiện sự tỉnh táo và tư duy',
                                                                         imgSrc :'./images/i10.jpg'
                                                                             },
                                                                             {
                                                                                 id: 11,
-                                                                                name:'trà tranh cam  xả',
-                                                                                price:9,
+                                                                                name:'áo polo jimek',
+                                                                                price:920000,
                                                                                 discription : 'Uống trà cải thiện sự tỉnh táo và tư duy',
                                                                                 imgSrc :'./images/i11.jpg'
                                                                                     },
                                                                                     {
                                                                                         id: 12,
-                                                                                        name:'trà tranh cam  xả',
-                                                                                        price:9,
+                                                                                        name:'áo polo Sukim',
+                                                                                        price:805000,
                                                                                         discription : 'Uống trà cải thiện sự tỉnh táo và tư duy',
                                                                                         imgSrc :'./images/i12.jpg'
                                                                                             },
                                                                                             {
                                                                                                 id: 8,
-                                                                                                name:'trà tranh cam  xả',
-                                                                                                price:12,
+                                                                                                name:'áo thun tay ngắn lenki',
+                                                                                                price:120000,
                                                                                                 discription : 'Uống trà cải thiện sự tỉnh táo và tư duy',
                                                                                                 imgSrc :'./images/i13.jpg'
                                                                                                     }, {
                                                                                                         id: 9,
-                                                                                                        name:'trà tranh cam  xả',
-                                                                                                        price:9,
+                                                                                                        name:'áo thun tay ngắn lacker',
+                                                                                                        price:190000,
                                                                                                         discription : 'Uống trà cải thiện sự tỉnh táo và tư duy',
                                                                                                         imgSrc :'./images/i15.jpg'
                                                                                                             }, 
                                                                                                             {
                                                                                                                 id: 10,
-                                                                                                                name:'trà tranh cam  xả',
-                                                                                                                price:9,
+                                                                                                                name:'áo thun ngắn tay bekuem',
+                                                                                                                price:590000,
                                                                                                                 discription : 'Uống trà cải thiện sự tỉnh táo và tư duy',
                                                                                                                 imgSrc :'./images/i14.jpg'
                                                                                                                     },
                                                                                                                     {
                                                                                                                         id: 11,
-                                                                                                                        name:'trà tranh cam  xả',
-                                                                                                                        price:9,
+                                                                                                                        name:'áo thun ngắn tay linkpink',
+                                                                                                                        price:499000,
                                                                                                                         discription : 'Uống trà cải thiện sự tỉnh táo và tư duy',
                                                                                                                         imgSrc :'./images/i16.jpg'
                                                                                                                             },
                                                                                                                             {
                                                                                                                                 id: 12,
-                                                                                                                                name:'trà tranh cam  xả',
-                                                                                                                                price:9,
+                                                                                                                                name:'áo polo tay lỡ kayzi',
+                                                                                                                                price:695000,
                                                                                                                                 discription : 'Uống trà cải thiện sự tỉnh táo và tư duy',
                                                                                                                                 imgSrc :'./images/i17.jpg'
                                                                                                                                     },
                                                                                                                                     {
                                                                                                                                         id: 10,
-                                                                                                                                        name:'trà tranh cam  xả',
-                                                                                                                                        price:9,
+                                                                                                                                        name:'áo polo tay lỡ puka ',
+                                                                                                                                        price:862000,
                                                                                                                                         discription : 'Uống trà cải thiện sự tỉnh táo và tư duy',
                                                                                                                                         imgSrc :'./images/i18.jpg'
                                                                                                                                             },
                                                                                                                                             {
                                                                                                                                                 id: 11,
-                                                                                                                                                name:'trà tranh cam  xả',
-                                                                                                                                                price:9,
+                                                                                                                                                name:'áo polotay lỡ hikic',
+                                                                                                                                                price:974000,
                                                                                                                                                 discription : 'Uống trà cải thiện sự tỉnh táo và tư duy',
                                                                                                                                                 imgSrc :'./images/i19.jpg'
                                                                                                                                                     },
                                                                                                                                                     {
                                                                                                                                                         id: 12,
                                                                                                                                                         name:'Polo tay lỡ Urooal',
-                                                                                                                                                        price:9,
+                                                                                                                                                        price:356000,
                                                                                                                                                         discription : 'Uống trà cải thiện sự tỉnh táo và tư duy',
                                                                                                                                                         imgSrc :'./images/i20.jpg'
                                                                                                                                                             },
