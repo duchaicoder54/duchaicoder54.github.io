@@ -30,7 +30,7 @@ imgSrc :'./images/i1.jpg'
                             {
                                 id: 5,
                                 name:'áo polo ngắn tay nữ',
-                                price:4,
+                                price:495000,
                                 discription : 'Uống trà cải thiện sự tỉnh táo và tư duy',
                                 imgSrc :'./images/i5.jpg'
                                     },
