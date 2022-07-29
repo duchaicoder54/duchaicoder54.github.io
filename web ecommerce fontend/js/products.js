@@ -36,14 +36,14 @@ imgSrc :'./images/i1.jpg'
                                     },
                                     {
                                         id: 6,
-                                        name:'trà tranh cam  xả',
+                                        name:'áo polo miker',
                                         price:7,
                                         discription : 'Uống trà cải thiện sự tỉnh táo và tư duy',
                                         imgSrc :'./images/i6.jpg'
                                             },
                                             {
                                                 id: 7,
-                                                name:'trà tranh cam  xả',
+                                                name:'áo polo finumk',
                                                 price:10,
                                                 discription : 'Uống trà cải thiện sự tỉnh táo và tư duy',
                                                 imgSrc :'./images/i7.jpg'
