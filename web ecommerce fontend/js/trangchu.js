@@ -17,7 +17,7 @@ var xemngay = document.querySelectorAll('.xem-ngay')
     var xemngay = document.querySelectorAll('.xem-ngay')
    xemngay.forEach((open ,i) =>{
            open.addEventListener("click", ()=>{
-            console.log('dmmm')
+            
            
 popup(i)
         });
@@ -62,6 +62,7 @@ const sp = {
     numberproduct :1,
     
 }
+
 
 
 
