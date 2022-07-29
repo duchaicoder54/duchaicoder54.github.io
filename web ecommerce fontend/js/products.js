@@ -50,7 +50,7 @@ imgSrc :'./images/i1.jpg'
                                                     },
                                                     {
                                                         id: 8,
-                                                        name:'trà tranh cam  xả',
+                                                        name:'áo polo makernup',
                                                         price:12,
                                                         discription : 'Uống trà cải thiện sự tỉnh táo và tư duy',
                                                         imgSrc :'./images/i8.jpg'
