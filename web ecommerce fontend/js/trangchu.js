@@ -52,7 +52,7 @@ for(var i= 0; i < addgiohang.length; i++){
   var discription = sanpham.querySelector('p').innerHTML;
   console.log(price)
 
-alert('san pham da duoc them vao gio hang')
+
 const sp = {
   id: id++,
     name : name,
@@ -62,16 +62,21 @@ const sp = {
     numberproduct :1,
     
 }
+if(card.some((Item) =>Item.name == sp.name)){
+    alert('san pham da thuc su co trong gio hang')
+}
+else{
 
 
 
 
 card.push(sp)
+alert('san pham da duoc them vao gio hang')
 localStorage.setItem("Card", JSON.stringify(card));
 JSON.parse(localStorage.getItem("Card")) 
 console.log(card)
 
-       
+}
  
     }
 }
