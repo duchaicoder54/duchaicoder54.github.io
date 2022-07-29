@@ -29,7 +29,7 @@ imgSrc :'./images/i1.jpg'
                             },
                             {
                                 id: 5,
-                                name:'trà tranh cam  xả',
+                                name:'áo polo ngắn tay nữ',
                                 price:4,
                                 discription : 'Uống trà cải thiện sự tỉnh táo và tư duy',
                                 imgSrc :'./images/i5.jpg'
