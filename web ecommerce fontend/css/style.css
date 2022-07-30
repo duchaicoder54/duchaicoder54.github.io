@@ -637,11 +637,11 @@ transform: scale(1.1);}
     .conten .quickview .product_card_qv{
         
         width: 80%;
-        height: 55%;
+        height: 48%;
 }}
-    @media (max-width :768px){.conten .quickview .product_card_qv{
+    @media (max-width :767px){.conten .quickview .product_card_qv{
         width: 90%;
-        height: 100vh;
+        height: 80%;
         flex-direction:column;
 
         
@@ -652,11 +652,11 @@ transform: scale(1.1);}
         flex-direction:column;
        
     }
-    .info-product{
-        margin-top: 0;
-    }
+   
     .conten .quickview .info-produc{
         margin-top:0px;
+        padding-top: 0%;
+        top:0%;
     }
     .conten .quickview .product_card_qv h2{
         text-transform: uppercase;
@@ -667,6 +667,42 @@ transform: scale(1.1);}
      .conten .quickview .product_card_qv .img-product{
         width: 100%;
         height: 35%;}}
+        /* ------- */
+        @media (max-width :400px){.conten .quickview {width: 100%;height: 100%;}
+            .conten .quickview .product_card_qv{
+            width: 100%;
+            height: auto;
+            flex-direction:column;
+            top:0;
+            padding: 0;
+            margin: 0 2% ;
+           
+        }
+        .conten .quickview .product_card_qv .img-product img{
+          
+            height: 100%;
+        }
+        .conten .quickview .product_card_qv .info-product{padding: 0;
+        margin-top: 0;}
+        .info-product{
+            margin-top: 0;
+        }
+        .conten .quickview .product_card_qv .info-product span,h2,h4{
+            margin:0px;
+            padding:0% ;
+            top: 0%;
+            font-size: 20px;
+        }
+        .conten .quickview .product_card_qv h2{
+            text-transform: uppercase;
+            font-size: 10px;
+            margin: -10px ;
+            padding: 0px ;
+           top:0%;
+         }
+         .conten .quickview .product_card_qv .img-product{
+            width: 100%;
+            height: 35%;}}
     .conten .quickview .product_card_qv .img-product{
         width: 100%;
         height: 400px;
