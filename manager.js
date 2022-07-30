@@ -13,7 +13,7 @@ function enter(){
     let input_element = document.querySelectorAll('.form-control');
   for(i= 0 ; i < input_element.length; i++){
     if(input_element[i].value=== ""){
-        input_element[i].parentElement.querySelector('.error-message').innerText = 'please enter your enought infomation ';
+        input_element[i].parentElement.querySelector('.error-message').innerText = 'please enter your enought information ';
     }
     else{
         input_element[i].parentElement.querySelector('.error-message').innerText="";
