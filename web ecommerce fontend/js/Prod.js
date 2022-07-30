@@ -132,7 +132,7 @@ numberproduct,
   
   updateCade()
 }
-const nut_hien = document.querySelector('.shopping_card');
+const nut_hien = document.querySelector('.fa-shopping-cart');
 const cardbuy= document.querySelector('.cardbuy');
 nut_hien.onclick = function(){
   cardbuy.classList.toggle('active')
