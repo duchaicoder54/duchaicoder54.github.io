@@ -62,15 +62,15 @@ display: none;
   height: 100%;
   z-index: 1;
   transition: 0.4s;
-  position: relative;
-}
+  position: relative;}
+
 
 
 .container .row .col-sm-6 .text h2{
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin-bottom: 5px;
-  padding: 2px 5px;
+  margin-bottom: 2px;
+  /* padding: 2px 5px; */
   color:black;
 }
 .container .row .col-sm-6 .text{
@@ -100,6 +100,7 @@ display: none;
 .container .row .col-sm-6 .card button{
     background-color: greenyellow;
     width: 100%;
+    height: 40px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     transition: 0.3s;
@@ -242,14 +243,22 @@ padding: 2px 2px;
     }
     .container .row .col-sm-6 .img{
       width: 90%;
-      height: 65%;
-      /* justify-content: center;
+      height: 80%;
+      justify-content: center;
       align-items: center;
-      text-align: center; */
+      text-align: center;
+      padding-left: 10%;
     }
+    /* .container .row .col-sm-6 .text h2{
+      padding: 0;
+      margin: 0;
+    } */
     .container .row .col-sm-6 .img img{
       width: 95%;
       height: 80%;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
     }
     .container .row .col-sm-6 .card button{
       background-color: greenyellow;
@@ -263,6 +272,16 @@ padding: 2px 2px;
   }
   
   }
+    @media screen and (max-width : 700px){
+       .container .row .col-sm-6 .text h2{
+      padding: 0;
+      margin: 5px 5px ;
+    }}
+    @media screen and (max-width : 470px){
+      .container .row .col-sm-6 .text h2{
+     padding: 0;
+     margin: 0 ;
+   }}
  
                         @media screen and (max-width : 768px){
                           .cardbuy{
