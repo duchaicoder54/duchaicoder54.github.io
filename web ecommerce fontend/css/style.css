@@ -641,14 +641,14 @@ transform: scale(1.1);}
 }}
     @media (max-width :768px){.conten .quickview .product_card_qv{
         width: 90%;
-        height: 60%;
+        height: auto;
         flex-direction:column;
 
         
     }}
     @media (max-width :586px){.conten .quickview .product_card_qv{
         width: 90%;
-        height: 67%;
+        height: auto;
         flex-direction:column;
 
     }
