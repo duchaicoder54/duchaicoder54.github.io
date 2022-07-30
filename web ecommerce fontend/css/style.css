@@ -635,13 +635,15 @@ transform: scale(1.1);}
  }
  @media (max-width :900px){
     .conten .quickview .product_card_qv{
-        width: 550px;
-        height: 60%;
         
-   
-    flex-direction:column ;}
-    @media (max-width :500px){.conten .quickview .product_card_qv{
-        height: 70%;
+        width: 80%;
+        height: 37%;
+}
+    @media (max-width :768px){.conten .quickview .product_card_qv{
+        width: 90%;
+        height: 60%;
+        flex-direction:column;
+        
     }}
     .conten .quickview .product_card_qv .img-product{
         width: 100%;
