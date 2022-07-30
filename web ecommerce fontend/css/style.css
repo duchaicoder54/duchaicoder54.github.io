@@ -637,11 +637,11 @@ transform: scale(1.1);}
     .conten .quickview .product_card_qv{
         
         width: 80%;
-        height: 37%;
+        height: 55%;
 }}
     @media (max-width :768px){.conten .quickview .product_card_qv{
         width: 90%;
-        height: auto;
+        height: 100vh;
         flex-direction:column;
 
         
@@ -650,13 +650,16 @@ transform: scale(1.1);}
         width: 90%;
         height: auto;
         flex-direction:column;
-
+       
+    }
+    .info-product{
+        margin-top: 0;
     }
     
     .conten .quickview .product_card_qv h2{
         text-transform: uppercase;
         font-size: 10px;
-        margin: 5px ;
+        margin: 0px ;
         padding: 5px 5px;
      }
      .conten .quickview .product_card_qv .img-product{
