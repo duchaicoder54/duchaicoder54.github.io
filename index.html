@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+    <title>Manger student Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="manager.css">
+
+</head>
+
+<body onload="renderStudent()" >
+  <h1> project manager student</h1>
+    <div class="container">
+      <div class="form">
+      <!-- <h1> project manager student</h1> -->
+        <form >
+          <div class="form-group">
+            <label for="pwd">Id:</label>
+            <input type="number" class="form-control" id="id">
+            <div class="error-message"></div>
+          </div>
+          <div class="form-group">
+            <label for="pwd">Image:</label>
+            <input type="text" class="form-control" id="image">
+            <div class="error-message"></div>
+          </div>
+          <div class="form-group">
+            <label for="usr">Ho va Ten:</label>
+            <input type="text" class="form-control" id="usr">
+            <div class="error-message"></div>
+          </div>
+          <div class="form-group">
+            <label for="pwd">Tuoi:</label>
+            <input type="number" class="form-control" id="age">
+            <div class="error-message"></div>
+          </div>
+          <div class="form-group">
+            <label for="pwd">Truong hoc:</label>
+            <input type="text" class="form-control" id="shl">
+            <div class="error-message"></div>
+          </div>
+          <div class="form-group">
+          
+            <input type="number" id="index" style="display:none ;" >
+          </div>
+        </form>
+        <button id="nhap"  > Enter </button>
+     
+        <button style="display:none ;" id="update" onclick="changedata()"  > Update </button>
+      </div>
+        <div class="table">
+        <table class="table_t" id="tab" style="border: 1; ">   
+            <thead>
+                <tr>
+                  <th>Id</th>
+                  <th>Image</th>
+                  <th>Name</th>
+                  <th>Age</th>
+                  <th>School</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody>
+               
+            </tbody>
+        </table>
+      </div>
+      </div>
+      <script src="./manager.js"> 
+     
+      
+</script>
+      
+   
+
+ 
+</body>
+</html>
