@@ -643,8 +643,15 @@ transform: scale(1.1);}
         width: 90%;
         height: 60%;
         flex-direction:column;
+
         
-    }}
+    }
+    .conten .quickview .product_card_qv h2{
+        text-transform: uppercase;
+        font-size: 10px;
+        margin: 5px ;
+        padding: 5px 5px;
+     }}
     .conten .quickview .product_card_qv .img-product{
         width: 100%;
         height: 400px;
