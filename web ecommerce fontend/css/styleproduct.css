@@ -237,6 +237,9 @@ padding: 2px 2px;
   }
 }
   @media screen and (max-width : 768px){
+    .container .row {
+      width: 100%;
+    }
     .container .row .col-sm-6 {
       width: 100%;
       height: auto;
