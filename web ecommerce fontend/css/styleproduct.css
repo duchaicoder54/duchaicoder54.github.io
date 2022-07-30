@@ -355,11 +355,12 @@ position:relative;
    #form-search .input-search placeholder{color: black;}
    #form-search i {font-size: 25px;
   color:aliceblue;
-cursor: pointer;}
+cursor: pointer;
+;}
 #form-search i:hover{color: darkgoldenrod;}
 #form-search #close{color: azure;
 font-size: 30px;
 position: absolute;
-top: 40px;
+top: 70px;
 right: 30px;}
   
