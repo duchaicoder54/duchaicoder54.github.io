@@ -630,7 +630,7 @@ transform: scale(1.1);}
  .conten .quickview .product_card_qv .addtocard .fa-cart-plus {color: #ffffff;
 }
  .conten .quickview .product_card_qv .addtocard:hover{
-    transform: scale(1.2);
+    transform: scale(1.01);
     background-color:darkgreen
  }
  @media (max-width :900px){

@@ -38,12 +38,13 @@ popup(i)
     let card =JSON.parse(localStorage.getItem("Card")) || []
     console.log(card)
     var giohang = Array();
-    var id =23;
+    // var id =23;
 for(var i= 0; i < addgiohang.length; i++){
  
     addgiohang[i].onclick = function(){
   
   var sanpham = this.parentElement.parentElement.parentElement.parentElement;
+  var id = sanpham.getElementsByClassName('nhapid')[0].innerHTML;
   var name = sanpham.querySelector('h3').innerHTML;
   console.log(name)
   var imgSrc = sanpham.querySelector('img').src;
