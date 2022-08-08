@@ -1,0 +1,178 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>login</title>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>trangchu.com</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" type="text/css" href="stylelogin.css" />
+
+</head>
+
+<body>
+
+    <div class="login">
+        <h4 id="dangnhapthanhcong"> </h4>
+        <form id="login">
+
+            <div class="form-group" id="form-login-user">
+                <label for=""><i class="fas fa-user"></i> Username</label>
+                <input type="text" class="form-control" id="user" placeholder="Input uername">
+                <p id="erroruser"></p>
+            </div>
+
+            <div class="form-group" id="forget-form-oldpassword">
+                <label for=""><i class="fas fa-unlock"></i>oldpassword</label>
+                <input type="text" class="form-control" id="oldpassword" placeholder="Input old password" />
+                <p id="erroroldpass"></p>
+            </div>
+
+
+
+            <div class="form-group" id="form-login-password">
+                <label for=""><i class="fas fa-unlock"></i>password</label>
+                <input type="password" class="form-control" id="password" placeholder="Input password">
+                <p id="errorpass"> </p>
+            </div>
+            <div class="form-group " id="forget-form-newpassword">
+                <label for=""><i class="fas fa-unlock"></i>newpassword</label>
+                <input type="password" class="form-control" id="newpassword" placeholder=" Input new password">
+                <p id="errornew"></p>
+            </div>
+
+            <button class="control" id="form-login-button" type="button" name="dangnhap"> LOGIN</button>
+            <button class="forget-form-button" id="forget-form-button" type="button" name="dangnhap"> Save</button>
+            <div class="forgot">
+                <p class="forgot-password"> forgot password</p>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        const forgetpasword = document.querySelector('.forgot-password');
+
+        forgetpasword.onclick = () => {
+            var passwordfirst = 99999999;
+            document.querySelector('#form-login-user').style.display = 'none'
+            document.querySelector('#form-login-password').style.display = 'none'
+            document.querySelector('#form-login-button').style.display = 'none'
+
+            document.querySelector('#forget-form-oldpassword').style.display = 'block'
+            document.querySelector('#forget-form-newpassword').style.display = 'block'
+            document.querySelector('#forget-form-button').style.display = 'block'
+            document.querySelector('#forget-form-button').onclick = function () {
+                console.log('dccccc')
+                validateformchangepasswoord()
+            }
+        }
+        const buttonlogin = document.querySelector('#form-login-button')
+
+        var passwordfirst = "123456789"
+
+        buttonlogin.onclick = () => {
+            validateForm()
+        }
+        function validateForm() {
+
+            const user = document.getElementById('user').value;
+            console.log(user)
+            const password = document.getElementById('password').value;
+            console.log(password)
+            if (user.trim().length == 0) {
+
+                document.getElementById('erroruser').innerHTML = 'ban can nhat ten nguoi dung'
+                return false
+
+            }
+            else {
+                document.getElementById('erroruser').innerHTML = ''
+            }
+            if (password.trim().length == 0) {
+
+                document.getElementById('errorpass').innerHTML = 'ban can nhap password'
+                return false
+
+            }
+            else {
+                document.getElementById('errorpass').innerHTML = ''
+            }
+            if (user !== "duchai" && user != null) {
+
+                document.getElementById('erroruser').innerHTML = 'ban da nhap sai tên người dùng'
+                return false
+
+            }
+            else {
+                document.getElementById('erroruser').innerHTML = ''
+            }
+            if (password !== passwordfirst && password != null) {
+
+                document.getElementById('errorpass').innerHTML = 'ban da nhap sai password'
+                return false
+
+            }
+            else {
+                document.getElementById('errorpass').innerHTML = ''
+            }
+            if (true) {
+
+                document.getElementById('dangnhapthanhcong').innerHTML = 'bạn dã đăng nhâp thanh công';
+                document.getElementById('dangnhapthanhcong').style.color = 'darkgreen';
+                document.getElementById('login').style.display = 'none';
+            }
+
+        }
+        function refreshform() {
+            document.getElementById('user').value = "";
+            document.getElementById('password').value = "";
+        }
+        function validateformchangepasswoord() {
+            console.log(passwordfirst)
+
+            const oldpassword = document.getElementById('oldpassword').value;
+
+            const newpassword = document.getElementById('newpassword').value;
+            if (oldpassword.trim().length == 0) {
+                document.getElementById('erroroldpass').innerHTML = 'ban can nhap mật khẩu cũ';
+                return false
+            }
+            else { document.getElementById('erroroldpass').innerHTML = ''; }
+            if (oldpassword !== passwordfirst) {
+                document.getElementById('erroroldpass').innerHTML = 'ban đã nhập sai  mật khẩu cũ';
+                return false
+            }
+            else { document.getElementById('erroroldpass').innerHTML = ''; }
+            if (newpassword.trim().length == 0) {
+                document.getElementById('errornew').innerHTML = 'ban cần nhập mật khâue mới  ';
+                return false
+            }
+            else { document.getElementById('errornew').innerHTML = ''; }
+            if (newpassword == oldpassword) {
+                document.getElementById('errornew').innerHTML = 'bankhông the đe mat khau cu trùng mk mới  ';
+                return false
+            }
+            else { document.getElementById('errornew').innerHTML = ''; }
+            if (true) {
+                alert('bạn đã đổi mật khẩu thành công')
+                passwordfirst = newpassword
+                refreshform()
+                document.querySelector('#form-login-user').style.display = 'block'
+                document.querySelector('#form-login-password').style.display = 'block'
+                document.querySelector('#form-login-button').style.display = 'block'
+                document.querySelector('#forget-form-oldpassword').style.display = 'none'
+                document.querySelector('#forget-form-newpassword').style.display = 'none'
+                document.querySelector('#forget-form-button').style.display = 'none'
+            }
+        }
+
+    </script>
+</body>
+
+</html>
