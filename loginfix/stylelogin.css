@@ -1,0 +1,243 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    background: url(../images/banner1.jpg)no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 100%;
+
+}
+
+.login {
+    display: block;
+    margin: 0 auto;
+    width: 20%;
+    height: 300px;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid antiquewhite;
+    padding: 15px 5px;
+    background-color: #F5F6CE;
+}
+
+.login.active {
+
+    display: none;
+}
+
+
+
+.login .formlogin {
+    width: 100%;
+    height: 70%;
+
+}
+
+.login .formlogin,
+#login {
+    width: 100%;
+
+
+}
+
+.login .formlogin #login .form-group {
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.login .formlogin #login .form-group input {
+    width: 100%;
+    height: 40px;
+}
+
+.login .formlogin #login .form-group i {
+    justify-content: center;
+    padding: 10px 5px;
+    font-size: 20px;
+    color: darkolivegreen;
+}
+
+.login .formlogin #login .form-group p {
+    color: darkred;
+    font-size: 12px;
+    margin: 3px 3px;
+    position: relative;
+}
+
+.login .formlogin #login button {
+    width: 50%;
+    height: 40px;
+    background-color: blue;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: azure;
+    margin-top: 10px;
+    margin-left: -22%;
+    border-radius: 5%;
+}
+
+.login .formlogin #login button:hover {
+    background-color: darkgreen;
+}
+
+
+---------- .login .formchangepassword {
+    width: 100%;
+    height: 70%;
+
+}
+
+.login .formchangepassword #login {
+    width: 100%;
+
+
+}
+
+.login .formchangepassword #login .form-group {
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.login .formchangepassword #login .form-group input {
+    width: 100%;
+    height: 40px;
+}
+
+.login .formchangepassword #login .form-group i {
+    justify-content: center;
+    padding: 10px 5px;
+    font-size: 20px;
+    color: darkolivegreen;
+}
+
+.login .formchangepassword #login .form-group p {
+    color: darkred;
+    font-size: 12px;
+    margin: 3px 3px;
+    position: relative;
+}
+
+.login .formchangepassword #login button {
+    width: 50%;
+    height: 40px;
+    background-color: blue;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: azure;
+    margin-top: 10px;
+    margin-left: -22%;
+    border-radius: 5%;
+}
+
+.login .formchangepassword #login button:hover {
+    background-color: darkgreen;
+}
+
+
+
+
+
+.login .forgot {
+    width: 104%;
+    height: 15%;
+    background-color: olive;
+
+    margin-left: -5px;
+    margin-top: 55px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 0%;
+}
+
+.forgot p {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 14px;
+    color: black;
+    padding: 4% 2%;
+    cursor: pointer;
+
+}
+
+
+.login .form-group {
+
+    display: block;
+    justify-content: center;
+    padding: 10px 10px;
+    position: relative;
+
+}
+
+
+
+
+
+
+
+
+
+#dangnhapthanhcong {
+    color: darkgreen;
+    font-size: 20px;
+
+}
+
+button.forget-form-button {
+    width: 70%;
+    margin: 0% 16%;
+
+
+}
+
+.form-group p {
+    color: darkred;
+    font-size: 10px;
+}
+
+h1 {
+    font-size: 15px;
+    width: 300px;
+    height: 40px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    color: darkgreen;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-bottom: 1px solid darkgoldenrod;
+    overflow: hidden;
+    opacity: 0;
+}
+
+h1.active {
+    overflow: visible;
+    opacity: 1;
+}
+
+#back {
+    display: none;
+}
